@@ -20,16 +20,16 @@ service: serverless-hello
 # Check out our docs for more details
 # frameworkVersion: "=X.X.X"
 
+# you can overwrite defaults here
+#  stage: dev
+#  region: us-east-1
+
 plugins:
   - serverless-offline
 
 provider:
   name: aws
   runtime: nodejs12.x
-
-# you can overwrite defaults here
-#  stage: dev
-#  region: us-east-1
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:

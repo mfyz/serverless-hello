@@ -1,6 +1,7 @@
 ### Install
 ```npm install```
 
+
 ### Run offline
 
 ```sls offline``` then invoke the aws lambda function with:
